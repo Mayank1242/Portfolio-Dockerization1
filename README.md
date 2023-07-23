@@ -28,7 +28,7 @@ Build the Docker images: docker-compose build
 
 Start the containers: docker-compose up -d
 
-That's it! Your portfolio website should now be up and running. Visit http://localhost:8080 in your web browser to view the website. You can also customize the port mapping in the docker-compose.yml file.
+That's it! Your portfolio website should now be up and running. Visit http://localhost:8000 in your web browser to view the website. You can also customize the port mapping in the docker-compose.yml file.
 
 Feel free to explore the Dockerfile and other configuration files to understand how the Docker image is created and how the services are orchestrated.
 
