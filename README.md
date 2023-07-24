@@ -24,9 +24,9 @@ Navigate to the project directory: cd Portfolio-Dockerization
 
 Customize the environment variables in the docker-compose.yml file, such as the website title, database connection strings, etc.
 
-Build the Docker images: docker-compose build
-
 Start the containers: docker-compose up -d
+
+Stop the containers: docker-compose down
 
 That's it! Your portfolio website should now be up and running. Visit http://localhost:8000 in your web browser to view the website. You can also customize the port mapping in the docker-compose.yml file.
 
